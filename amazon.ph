@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+        <div class="nav-address border">
+            <p class="add-1"> Delivering to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-2">Update location</p>
+            </div>     
+        </div>
+        <div class="nav-search border">
+            <select  class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon.in" class="search-input">
+
+            <div class="mag-glass" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="lang-box border">
+            <div class="flag"></div>
+           <div class="language">
+             <select  class="lang">
+                 <option>EN</option>
+             </select>     
+           </div>
+        </div>
+        <div class="account border">
+            <a class="name" href="login.html" target="_blank">Hello, Sign in</a>
+           
+            <a  class="acc" href="reg.html">New user Sign-in</a>
+            
+        </div> 
+        <div class="ret border">
+            <div class="Return">Returns</div>
+             <select class="order">
+                 <option>& Orders</option>
+             </select>
+        </div> 
+        <div class="box border">
+            <div class="cart-logo">
+              <i class="fa-solid fa-cart-shopping"></i>
+           </div>
+           <p class="cart">Cart</p>
+        </div>
+    </div>
+    <div class="navbar-2 ">     
+        <div class="panel border">
+            <i class="fa-solid fa-bars"></i>
+            <div class="pan"> All</div>
+        </div>
+        <div class="a1">
+            <select class="A1 border">
+                <option>Fresh</option>
+            </select>
+         </div>
+         <div class="a">
+            <div class="A border">Amazon miniTV</div>
+         </div>
+         <div class="b">
+            <div class="B border">Sell</div>
+         </div>
+         <div class="c">
+            <div class="C border">Best Sellers</div>
+         </div>
+         <div class="d">
+            <div class="D border">Mobiles</div>
+         </div>
+         <div class="e">
+            <div class="E border">Today's Deals</div>
+         </div>
+         <div class="f">
+            <div class="F border">Electronics</div>
+         </div>
+         <div class="g ">
+            <select class="G border">
+                <option>Prime</option>
+            </select>
+         </div>
+         <div class="h">
+            <div class="H border">Customer Service</div>
+         </div>
+         <div class="i">
+            <div class="I border">Fashion</div>
+         </div>
+         <div class="j">
+            <div class="J border">Home & Kitchen</div>
+         </div>
+         <div class="k">
+            <div class="K border">New Releases</div>
+         </div>
+         <div class="l">
+            <div class="L border">Amazon Pay</div>
+         </div>
+         <div class="m">
+            <div class="M border">Computers</div>
+         </div>
+         <div class="n">
+            <div class="N border">Gift Ideas</div>
+         </div>
+         <div class="o">
+            <div class="O border">Books</div>
+         </div>    
+    </div>
+    </div>
+   </header>
+   <div class="hero-section">
+   </div>
+   <div class="shopping">
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Beauty Essentials</h2>
+            <div class="box-img" style="background-image:url('box-1.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Revamp your home in style</h2>
+            <div class="box-img" style="background-image:url('home.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Styles for women</h2>
+            <div class="box-img" style="background-image:url('clothes.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Appliances for your home</h2>
+            <div class="box-img" style="background-image:url('app.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+   </div>
+   <div class="shopping-2">
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Electronics</h2>
+            <div class="box-img" style="background-image:url('elec.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Toys for kids</h2>
+            <div class="box-img" style="background-image:url('toys.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Footwear</h2>
+            <div class="box-img" style="background-image:url('shoes.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+      <div class="boxes">
+         <div class="box-content">
+            <h2 class="b1">Pet care</h2>
+            <div class="box-img" style="background-image:url('pet.jpeg');"></div>
+            <p style="color:#017783">See more</p>
+         </div>
+      </div>
+   </div>
+   <div class="shopping-3">
+      <div class="boxes-2">
+         <div class="b3">
+            <h2 class="b2">Up to 60% off | Best deals on furniture, home & more </h2>
+            <p class="b4" style="color:#017783">See all offers</p>
+         </div>
+         <div class="mini-box">
+            <div class="img1" style="background-image:url('box3.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3d.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3b.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3c.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3a.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3e.jpeg');"></div>
+            <div class="img1" style="background-image:url('box3f.jpeg');"></div>
+         </div>
+      </div>
+   </div>
+   <div class="shopping-3">
+      <div class="boxes-2">
+         <div class="b3">
+            <h2 class="b2">Up to 50% off | Curated kitchen essentials </h2>
+            <p class="b4" style="color:#017783">See all  offers</p>
+         </div>
+         <div class="mini-box">
+            <div class="img1" style="background-image:url('box4a.jpg');"></div>
+            <div class="img1" style="background-image:url('box4b.jpg');"></div>
+            <div class="img1" style="background-image:url('box4c.jpg');"></div>
+            <div class="img1" style="background-image:url('box4d.jpg');"></div>
+            <div class="img1" style="background-image:url('box4e.jpg');"></div>
+            <div class="img1" style="background-image:url('box4f.jpg');"></div>
+            <div class="img1" style="background-image:url('box4g.jpg');"></div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="f-box1">
+         <div style="color:white" >Back to top</div>
+      </div>
+
+      <div class="foot-panel-2">
+         <ul>
+            <h4 style="margin-top:40px">Get to Know Us</h4>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Amazon Science</a>
+         </ul>
+         <ul>
+            <h4 style="margin-top:40px">Connnect with Us</h4>
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Instagram</a>
+         </ul>
+         <ul>
+            <h4 style="margin-top:40px">Make Money With Us</h4>
+            <a>Sell on Amazon</a>
+            <a>Sell under Amazon Accelerator</a>
+            <a>Protect and Build Your Brand</a>
+            <a>Amazon Global Selling</a>
+            <a>Become an Affiliate</a>
+            <a>Fulfilment by Amazon</a>
+            <a>Advertise Your Product</a>
+            <a>Amazon Pay On Merchants</a>
+         </ul>
+         <ul>
+            <h4 style="margin-top: 40px">Let Us Help You</h4>
+            <a>COVID-19 and amazon</a>
+            <a>Your Account</a>
+            <a>Returns Centre</a>
+            <a>100% Purchase Protection</a>
+            <a>Amazon App Download</a>
+            <a>Help</a>
+         </ul> 
+      </div>
+      <div class="panel3">
+         <div class="logo2"></div>
+      </div>
+      <div class="panel4">
+         <div class="pages">
+            <a>Conditions Of  Use $ Sale</a>
+            <a style="margin-left: 10px">Privacy Notice</a>
+            <a  style="margin-left: 10px">Intrest-based Ads</a>
+         </div>
+         <div class="copyright">
+            <a>© 1996-2024, Amazon.com, Inc. or its affiliates</a> <br>
+           
+         </div>
+         <br>
+         <p>Made By Kunj Garg</p>
+        
+
+      </div>
+   </footer>
+</body>
+</html>
